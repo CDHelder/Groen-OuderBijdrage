@@ -294,7 +294,7 @@ namespace Groen__Ouderbijdrage
                 totalMoney = totalMoney - (int)(double)(totalMoney*0.25);
             }
             
-            labelParentalContributionAmount.Text = totalMoney.ToString();
+            labelParentalContributionAmount.Text = "€ " + totalMoney.ToString();
 
         }
     }
