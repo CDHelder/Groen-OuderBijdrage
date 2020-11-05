@@ -287,13 +287,13 @@ namespace Groen__Ouderbijdrage
 
             if (totalMoney > 150)
                 totalMoney = 150;
-            /*
-            fix hier dat er 25% van het totaal af gaat als eenoudergezin is
+            
+            //fix hier dat er 25% van het totaal af gaat als eenoudergezin is
             if (oneParentButton.Checked)
             {
-                totalMoney =- ((totalMoney/100)*25);
+                totalMoney = totalMoney - (int)(double)(totalMoney*0.25);
             }
-            */
+            
             labelParentalContributionAmount.Text = totalMoney.ToString();
 
         }
